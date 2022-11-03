@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ml bootcamp midterm project"
+version = "0.1.0"
+description = "A project focused on Machine Learning Engineering as a part of the Machine Learning Bootcamp - the project aims to discover trends in data pertaining to new york taxi rides, draw insight and build predictive models from them, and finally deploy and serve the models on a cloud platform"
+authors = ["Lestrang1991 <islam.elsayed.da@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sklearn = "^0.0"
+mlflow = "^1.30.0"
+xgboost = "^1.6.2"
+numpy = "^1.23.4"
+gcsfs = "^2022.10.0"
+fsspec = "^2022.10.0"
+hyperopt = "^0.2.7"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+pre-commit = "^2.20.0"
+pytest = "^7.2.0"
+pytest-mock = "^3.10.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
