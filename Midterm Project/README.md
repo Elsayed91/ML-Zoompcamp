@@ -186,3 +186,9 @@ and viola, you are done. here is a video that showcases this.
 
 Link: https://nytaxi-prediction-q2litgafla-ew.a.run.app/#/Service%20APIs
 but cannot guarantee it will stay functional for long.
+to test it you need to enter 3 things
+1. passenger count
+2. pickup zone
+3. dropoff zone
+
+and it should respond back with the prediction.
