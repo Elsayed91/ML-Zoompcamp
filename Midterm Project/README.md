@@ -1,4 +1,4 @@
-# Taxi Fare Prediction, a MLZoomcamp Project
+# Taxi Fare Prediction, an MLZoomcamp Project
 
 ## 1. Prelude
 this repository and project are a part of the amazing [Machine Learning Bootcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp).
