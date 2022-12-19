@@ -57,3 +57,5 @@ RUN chmod +x /home/bentoml/bento/env/docker/entrypoint.sh
 USER bentoml
 
 ENTRYPOINT [ "/home/bentoml/bento/env/docker/entrypoint.sh" ]
+
+
