@@ -10,5 +10,8 @@ python:
     - numpy
     - bentoml>1.0.0
     - "bentoml[io-image]"
+    - pillow
+    - pydantic
+    
     
     
