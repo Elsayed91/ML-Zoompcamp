@@ -41,6 +41,8 @@ In the notebook, 4 models were trained, Xception, EfficientNet, DenseNet and Inc
 The hyperparameters that were explored were the learning rate, dense layer size and drop out rate.
 After running everything, it seems like only optimizing the learning rate yields best result (0.94263 compared to 0.90490 public score in kaggle) so that is what we went with.
 The model was exported and with the help of bento it was deployed.
+**You can test the model within the notebook by looking up (ctrl+f) `plot_it(xception_model2, (df_submission.sample()['filename']).values[0])`
+this is a one liner that will pull out a random image from the test file along with its predicted label, this way you get an idea about how vlaid your model predictions are. My model seems to be doing fine overall but it seems like it considers aluminium cups as glass sometimes.  
 
 # Project Rubric
 EDA & Model Training already covered so we will proceed from there.
